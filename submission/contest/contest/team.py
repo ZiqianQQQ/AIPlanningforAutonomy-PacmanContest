@@ -1,4 +1,3 @@
-# myTeam.py
 # ---------
 # Licensing Information:  You are free to use or extend these projects for
 # educational purposes provided that (1) you do not distribute or publish
@@ -11,6 +10,17 @@
 # Student side autograding was added by Brad Miller, Nick Hay, and
 # Pieter Abbeel (pabbeel@cs.berkeley.edu).
 
+######################################################################
+#
+#  This is our entry to the ADversarial PACMAN contest for our AI 
+#  Planning for Autopnomy Subject, 2016 sem 2. This is extended from 
+#  code that has been provided to us by UC Berkley. Please refer to 
+#  statement above. 
+#
+#  Tim Chen was in charge of the Attacking Agent.
+#  Wilkins Leong was in charge of the Defensive Agent. (Line 432).
+#  
+######################################################################
 
 from captureAgents import CaptureAgent
 import random, time, util
@@ -529,10 +539,7 @@ class DefensiveAStarAgent(CaptureAgent):
 
         goalCoord = self.goalDefiner(gameState)
 
-        actions = self.aStarSearchDEF(gameState, goalCoord)
-
-        # print "in densive"
-        
+        actions = self.aStarSearchDEF(gameState, goalCoord)       
 
         #print 'eval time for agent %d: %.4f' % (self.index, time.time() - start)
         #astar is not returning actions properly so FIX THIS PLEASE
