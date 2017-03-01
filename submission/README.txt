@@ -18,6 +18,8 @@ For assumptions, please refer to the problem files. They are commented in.
 
 2: Pacman Agents:
 
+file: team.py
+
 we have designed and implemented two agents for this contest, one specified 
 for offensive and the other one for defensive and both of agents are based 
 on A star search to accomplish their goal states. Each agent will search for 
