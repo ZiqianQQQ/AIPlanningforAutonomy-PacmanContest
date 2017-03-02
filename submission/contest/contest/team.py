@@ -12,7 +12,7 @@
 
 ######################################################################
 #
-#  This is our entry to the ADversarial PACMAN contest for our AI 
+#  This is our entry to the Adversarial PACMAN contest for our AI 
 #  Planning for Autopnomy Subject, 2016 sem 2. This is extended from 
 #  code that has been provided to us by UC Berkley. Please refer to 
 #  statement above. 
